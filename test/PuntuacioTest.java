@@ -18,7 +18,7 @@ public class PuntuacioTest {
         this.puntuacio = new Puntuacio();
     }
 
-
+//comprobar dificultad
     @Test
     void comprobarDificultatNivellBaix(){
         this.puntuacio.getParaulaSecretaDificultat(1);
