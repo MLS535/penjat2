@@ -1,5 +1,6 @@
 package test;
 
+import com.jaume.penjat.Puntuacio;
 import com.jaume.penjat.Tauler;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -24,7 +25,9 @@ class TaulerTest {
     @Test
     void inicialitzarPartidaNombreIntents() {
         assertEquals(4, this.tauler.getIntents());
+
     }
+
 
     @Test
     void verificarEntradaIncorrecte() {
@@ -99,4 +102,7 @@ class TaulerTest {
     void hasGuanyatFalse() {
         assertFalse(this.tauler.hasGuanyat());
     }
+
+
+
 }
